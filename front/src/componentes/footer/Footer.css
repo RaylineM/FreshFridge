@@ -1,0 +1,30 @@
+.FooterWrapper {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.FooterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.SocialLinks a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 820px) {
+  .FooterContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .SocialLinks {
+    margin-top: 20px;
+  }
+}

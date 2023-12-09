@@ -1,0 +1,46 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  width: 80%; 
+  justify-content: space-between;
+  margin-top: 80px;
+  align-items: flex-start; 
+}
+
+.left-container {
+  flex: 1;
+}
+
+.information-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.image-container {
+  margin-top: 100px; 
+  margin-left: 330px;
+  max-height: 300px;
+  width: 30%;
+  opacity: 0.8;
+}
+
+.chat-container {
+  width: 60%; 
+  max-width: 400px; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+

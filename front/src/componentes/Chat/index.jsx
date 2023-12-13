@@ -7,7 +7,7 @@ const App = () => {
             apiHost="https://rayline-chat.hf.space"
             theme={{
                 chatWindow: {
-                    welcomeMessage: "Hello! This is custom welcome message",
+                    welcomeMessage: "Bem vindo ao FreshFridge ! No que posso ajudar hoje ?",
                     backgroundColor: "#ffffff",
                     height: 700,
                     width: 400,
@@ -17,10 +17,10 @@ const App = () => {
                         backgroundColor: "#f7f8ff",
                         textColor: "#303235",
                         showAvatar: true,
-                        avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png",
+                        avatarSrc: "/imagens/avatar.svg",
                     },
                     userMessage: {
-                        backgroundColor: "#3B81F6",
+                        backgroundColor: "#9da81a",
                         textColor: "#ffffff",
                         showAvatar: true,
                         avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
@@ -29,7 +29,7 @@ const App = () => {
                         placeholder: "Type your question",
                         backgroundColor: "#ffffff",
                         textColor: "#303235",
-                        sendButtonColor: "#3B81F6",
+                        sendButtonColor: "#9da81a",
                     }
                 }
             }}
